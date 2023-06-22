@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600&display=swap");
 
+/* Header */
 .navbar {
   /* padding: 0 1rem; */
   min-width: 22.5rem;
@@ -118,4 +120,37 @@
     max-width: 15.625rem;
     padding-top: 30%;
   }
+}
+
+/* menu Card */
+
+.product-card-menu-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 322px;
+  height: 104px;
+  border: solid 1px #b1b1b1;
+  overflow: hidden;
+}
+.product-card-title-description {
+  font-family: Kanit;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+.product-card-title {
+  font-weight: 400;
+}
+.product-card-description {
+  font-weight: 300;
+}
+
+.product-card-price{
+
+}
+
+.img-container {
+}
+
+.img-menu {
+  width: 100%;
 }
