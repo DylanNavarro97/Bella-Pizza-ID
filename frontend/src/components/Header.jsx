@@ -1,4 +1,3 @@
-// import "bootstrap/dist/css/bootstrap.css";
 import { Link } from "react-router-dom";
 import Toggle from "../svgs/Toggle";
 
@@ -10,7 +9,7 @@ function Header() {
         // style={{ minHeight: "80px" }}
       >
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/" >
+          <Link className="navbar-brand" to="/">
             <img src="https://res.cloudinary.com/do5fnhctm/image/upload/v1687220869/logo_300_qivnev.png" />
           </Link>
           <button
