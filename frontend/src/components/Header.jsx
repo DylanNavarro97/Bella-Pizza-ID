@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Toggle from "../svgs/Toggle";
+import "../styles/Header.css";
 
 function Header() {
   return (
